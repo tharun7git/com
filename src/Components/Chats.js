@@ -1,9 +1,27 @@
-// Filename - component/Chats.js
-
 import React from "react";
+import "./Chats.css";
 
 function Chats() {
-  return <h1>Welcome to the world of Geeks!</h1>;
+  const QR = () => {
+    alert("QR");
+  };
+
+  return (
+    <div className="name">
+      <div className="n">Whatsapp</div>
+      <div className="head">
+        <button onClick={QR}>QR</button>
+        <button onClick={QR}>Cam</button>
+        <button onClick={QR}>:::</button>
+        <div className="bar">
+          <label htmlFor="fname"></label>
+          <br />
+          <input type="text" id="fname" name="fname" value="Search" />
+          <br />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Chats;

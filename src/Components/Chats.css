@@ -1,0 +1,40 @@
+.name {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  padding: 50px;
+  padding-left: 5%;
+}
+
+.n {
+  font-size: 25px;
+  position: fixed;
+  top: 5%;
+}
+
+.head {
+  position: fixed;
+  right: 5%;
+  top: 5%;
+}
+
+.head button {
+  color: white;
+  background-color: black;
+  margin-left: 15px;
+}
+
+.bar {
+  padding: 20px;
+  position: fixed;
+  left: 10px;
+  top: 6%;
+}
+.bar input[type="text"] {
+  border: 1px solid black;
+  width: 550px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin-left: 10px; /* Adjust the width of the search bar */
+}

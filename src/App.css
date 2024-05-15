@@ -11,6 +11,8 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: flex; /* Add flexbox display */
+  justify-content: space-between;
 }
 
 .App-header li {
@@ -23,10 +25,9 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  margin-right: 33%;
 }
 
 /* Change color of links on hover */
 .App-header li a:hover {
-  background-color: #1rgb(35, 186, 216);
+  color: rgb(31, 178, 197);
 }
