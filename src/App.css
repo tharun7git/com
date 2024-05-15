@@ -1,0 +1,32 @@
+/* Add this CSS to your stylesheet */
+.App-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+}
+
+.App-header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.App-header li {
+  display: inline;
+}
+
+.App-header li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-right: 33%;
+}
+
+/* Change color of links on hover */
+.App-header li a:hover {
+  background-color: #1rgb(35, 186, 216);
+}
